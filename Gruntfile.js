@@ -26,7 +26,7 @@ module.exports = function(grunt) {
 			}
 		},exec : {
 			closure : {
-				cmd : "cd lib\nuglifyjs <%= pkg.name %>.js --screw-ie8 --output <%= pkg.name %>.min.js --source-map ./<%= pkg.name %>.map"
+				cmd : "cd lib\nuglifyjs <%= pkg.name %>.js --compress --screw-ie8 --output <%= pkg.name %>.min.js --source-map ./<%= pkg.name %>.map"
 			},
 			sourcemap : {
 				cmd : "echo //@ sourceMappingURL=<%= pkg.name %>.map >> lib/<%= pkg.name %>.min.js"
