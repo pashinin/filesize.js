@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 		pkg : grunt.file.readJSON("package.json"),
 		concat: {
 			options : {
-				banner : "/**\n" + 
+				banner : "/**\n" +
 				         " * <%= pkg.name %>\n" +
 				         " *\n" +
 				         " * @author <%= pkg.author.name %> <<%= pkg.author.email %>>\n" +
