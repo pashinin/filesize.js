@@ -36,6 +36,11 @@ filesize(265318, {base: 2, round: 1}); // "259.1 kB"
 
 filesize.js supports AMD loaders (require.js, curl.js, etc.), node.js & npm (npm install filesize), or using a script tag.
 
+## How to build?
+
+    npm install
+    grunt
+
 ## Support
 
 If you're having problems, use the support forum at CodersClan.
